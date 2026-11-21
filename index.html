@@ -3,34 +3,154 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Near Player: find gamers near you</title>
-  <meta name="description" content="Near Player is a free app to find gamers near you. Host a session at a café or online, or ask to join someone's console setup.">
+  <title>Near Player · Find gamers near you</title>
+  <meta name="description" content="Near Player is a free app to find gamers near you. Console hai? Squad dhundho. Console nahi? Host dhundho. Host or join sessions at a café, at home or online, with verified players.">
+  <link rel="canonical" href="https://nearplayer.live/">
   <link rel="icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/icon.png">
+  <meta name="theme-color" content="#0b0a12">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Near Player">
+  <meta property="og:title" content="Near Player · Find gamers near you">
+  <meta property="og:description" content="Console hai? Squad dhundho. Console nahi? Host dhundho. Free, 18+, verified players.">
+  <meta property="og:url" content="https://nearplayer.live/">
+  <meta property="og:image" content="https://nearplayer.live/og.png">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="/styles.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Near Player","operatingSystem":"Android, Web","applicationCategory":"SocialNetworkingApplication","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"url":"https://nearplayer.live/","description":"Find gamers near you. Host or join gaming sessions at a café, at home or online."}
+  </script>
 </head>
-<body>
-  <header class="bar"><div class="wrap">
+<body class="landing">
+  <header class="bar sticky"><div class="wrap wide">
     <a class="brand" href="/"><img src="/icon.png" alt="">Near Player</a>
-    <nav><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/delete-account/">Delete account</a></nav>
+    <nav class="links">
+      <a href="#features">Features</a><a href="#how">How it works</a><a href="#safety">Safety</a><a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn small" href="https://app.nearplayer.live/">Open app</a>
   </div></header>
 
-  <main class="wrap">
-    <section class="hero">
-      <img src="/icon.png" alt="Near Player app icon">
-      <h1>Find gamers <span>near you</span></h1>
-      <p>Console hai? Squad dhundho. Console nahi? Host dhundho. 🎮<br>A free app to meet people who play the same games, nearby or online.</p>
-      <span class="pill soon">Coming soon on Google Play</span>
+  <main>
+    <!-- Hero -->
+    <section class="hero2"><div class="wrap wide hero-grid">
+      <div class="hero-copy">
+        <span class="kicker">🎮 Free · 18+ · Made in India</span>
+        <h1>Find gamers <span>near you</span></h1>
+        <p class="lead">Console hai? Squad dhundho. Console nahi? Host dhundho.<br>Meet people who play the same games, at a café, at home or online.</p>
+        <div class="cta-row">
+          <a class="btn" href="https://app.nearplayer.live/">Open the web app</a>
+          <a class="btn ghost" href="#download">Get it on Android</a>
+        </div>
+        <ul class="ticks">
+          <li>Verified players (phone + live face check)</li>
+          <li>Your exact location is never shown</li>
+        </ul>
+      </div>
+      <div class="phone" aria-hidden="true">
+        <div class="screen">
+          <div class="map">
+            <span class="road r1"></span><span class="road r2"></span><span class="road r3"></span>
+            <span class="pin you" style="left:46%;top:52%"></span>
+            <span class="pin host" style="left:22%;top:28%">🎮</span>
+            <span class="pin host" style="left:70%;top:34%">🎮</span>
+            <span class="pin player" style="left:62%;top:70%">🙂</span>
+            <span class="pin session" style="left:30%;top:72%">FC 26 · 2/4</span>
+          </div>
+          <div class="sheet">
+            <div class="sheet-row"><span class="av">A</span><div><b>Arjun ✓</b><small>PS5 · EA FC, Tekken · 1.2 km</small></div></div>
+            <div class="sheet-btns"><span>Profile</span><span class="go">Invite to play</span></div>
+          </div>
+        </div>
+      </div>
+    </div></section>
+
+    <!-- Two sides -->
+    <section class="wrap wide two-up">
+      <div class="side host-side">
+        <span class="emoji">🕹️</span>
+        <h2>Console hai?</h2>
+        <p>Host a session at your place, a gaming café or online. Pick the game, the time and how many players. Approve who joins.</p>
+      </div>
+      <div class="side join-side">
+        <span class="emoji">🙋</span>
+        <h2>Console nahi?</h2>
+        <p>Find hosts within a few km, ask to join their setup or session, and play without buying a console.</p>
+      </div>
     </section>
 
-    <section class="grid">
-      <div class="card"><b>📍 Gamers within a few km</b><span>See players and sessions near you. Only an approximate distance is ever shown.</span></div>
-      <div class="card"><b>🎮 Host or join</b><span>Host a session at a café, at home or online, or ask to join someone's setup.</span></div>
-      <div class="card"><b>💬 Chat first</b><span>Plan in the app before you meet. Ratings come only from people who actually played together.</span></div>
-      <div class="card"><b>🛡️ Built for safety</b><span>18+ only, block and report, scam warnings, safe-meetup tips and a 112 shortcut.</span></div>
+    <!-- Features -->
+    <section id="features" class="wrap wide section">
+      <h2 class="title">Everything you need to play together</h2>
+      <div class="features">
+        <div class="feature"><span>🗺️</span><b>Live map</b><p>See consoles, players and open sessions around you, Uber-style. Pins are placed within a 1 km area, never at someone's real address.</p></div>
+        <div class="feature"><span>🎯</span><b>Sessions</b><p>Café, home or online. Slots, time, game and platform. Requests are approved by the host.</p></div>
+        <div class="feature"><span>💬</span><b>Chat first</b><p>Plan in the app before you meet. One-to-one and session group chats.</p></div>
+        <div class="feature"><span>✅</span><b>Verified badge</b><p>Phone OTP plus a 20-second live face check that matches your profile photo.</p></div>
+        <div class="feature"><span>⭐</span><b>Real ratings</b><p>Only people who actually played together can rate each other.</p></div>
+        <div class="feature"><span>🔔</span><b>Notifications</b><p>Get pinged when someone invites you, accepts, or messages you.</p></div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section id="how" class="wrap wide section">
+      <h2 class="title">How it works</h2>
+      <ol class="steps">
+        <li><b>Sign up in a minute</b><span>Email code or Google. Pick a username, add a photo and the games you play.</span></li>
+        <li><b>Find players nearby</b><span>Browse the list or the map. Filter by game and distance.</span></li>
+        <li><b>Host or join</b><span>Create a session or ask to join one. Chat, agree on the plan, then play.</span></li>
+      </ol>
+    </section>
+
+    <!-- Safety -->
+    <section id="safety" class="wrap wide section safety">
+      <div>
+        <h2 class="title left">Built for safe meetups</h2>
+        <p class="muted">You are meeting real people, so safety is part of the product, not an afterthought.</p>
+      </div>
+      <ul class="safety-list">
+        <li><b>18+ only</b>, one account per phone number.</li>
+        <li><b>Live face check</b> before anyone can host or join an in-person session.</li>
+        <li><b>Approximate distance only</b>: nobody sees your exact location.</li>
+        <li><b>Block and report</b> anyone; repeated reports suspend an account.</li>
+        <li><b>Scam warnings</b> in chat if someone asks for money, OTPs or UPI.</li>
+        <li><b>Safe-meetup tips</b> and a one-tap <b>112</b> emergency shortcut.</li>
+      </ul>
+    </section>
+
+    <!-- Platforms -->
+    <section class="wrap wide section center">
+      <h2 class="title">Every platform</h2>
+      <div class="chips"><span>PlayStation 5</span><span>PS4</span><span>Xbox Series X|S</span><span>PC</span><span>Nintendo Switch</span><span>Mobile</span></div>
+      <p class="muted small">Game and console names belong to their owners. Near Player is not affiliated with them.</p>
+    </section>
+
+    <!-- Download -->
+    <section id="download" class="wrap wide section">
+      <div class="download">
+        <div>
+          <h2>Get Near Player</h2>
+          <p>Use it in your browser today, or install the Android beta. Google Play is coming soon.</p>
+        </div>
+        <div class="cta-row">
+          <a class="btn" href="https://app.nearplayer.live/">Open the web app</a>
+          <a class="btn ghost" href="https://github.com/mayank-gupta201/nearplayer-site/releases/latest">Android beta (APK)</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="wrap section faq">
+      <h2 class="title">FAQ</h2>
+      <details><summary>Is Near Player free?</summary><p>Yes. No ads, no paid features.</p></details>
+      <details><summary>Can people see where I live?</summary><p>No. Others only see an approximate distance, and map pins are placed somewhere within a 1 km area. Share your address only in chat, only if you want to.</p></details>
+      <details><summary>Why do I need a face check?</summary><p>To host or join in-person sessions, every player verifies their phone and takes two quick live photos. They are compared with the profile photo automatically and deleted right after. It keeps fake profiles out. Browsing and chatting don't need it.</p></details>
+      <details><summary>Do I need a console?</summary><p>No. Many players join someone else's setup or a café session.</p></details>
+      <details><summary>Is there an iPhone app?</summary><p>Not yet. iPhone users can use the web app at app.nearplayer.live.</p></details>
+      <details><summary>How do I delete my account?</summary><p>In the app: Profile → Delete account. Or see <a href="/delete-account/">how to delete your account</a>.</p></details>
     </section>
   </main>
 
-  <footer><div class="wrap">
+  <footer><div class="wrap wide">
     <span>© 2026 Near Player · Made in India 🇮🇳</span>
     <span><a href="/privacy/">Privacy Policy</a> · <a href="/terms/">Terms</a> · <a href="/delete-account/">Delete account</a> · <a href="mailto:gupta.mayank201@gmail.com">Contact</a></span>
   </div></footer>
